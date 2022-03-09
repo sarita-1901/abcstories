@@ -2,7 +2,7 @@
   "name": "abcstories",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sarita-1901.github.io",
+  "homepage": "https://sarita-1901.github.io/abcstories",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
