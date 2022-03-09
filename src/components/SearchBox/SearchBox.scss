@@ -1,0 +1,22 @@
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+padding: 20px;
+  &__label {
+    font-size: 20px;
+  }
+
+  &__input {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px grey solid;
+    border-radius: 15px;
+    color: black;
+
+      outline: none;
+    }
+  }
+
+

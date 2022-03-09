@@ -1,0 +1,34 @@
+@use "../../variables/variables.scss" as *;
+
+
+.header
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.005em;
+  color: #ebeae5;
+  background-color: #3c6060;
+  &__main
+  {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 15px;
+text-align: center;
+letter-spacing: 0.1em;
+word-spacing: 0.3em;
+  }
+
+  &__tagline
+  {
+    margin: 0px;
+text-align: right;
+margin-right: 50px;
+letter-spacing: 0.1em;
+word-spacing: 0.2em;
+font-size: 18px;
+padding: 0px;
+padding-bottom: 10px;
+
+  }
+}

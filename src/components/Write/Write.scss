@@ -1,0 +1,70 @@
+.editor
+{
+  padding: 40px;
+  padding-left: 70px;
+  background-color: #ebeae5;
+//  height: 470px;
+
+&__section
+{
+  margin-top: 30px;
+ // width: 800px;
+  max-height: 300px;
+  min-height: 300px;
+  overflow: auto;
+  padding-left: 20px;
+  background-color: white;
+//background-color: lightblue;  
+  
+}}
+
+.publishbutton
+{
+ padding-top: 20px;
+ padding-bottom: 30px;
+}
+.writesubmit
+{
+  padding: 5x;
+  background-color: #3c6060;
+  color: white;
+  border-radius: 5px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.fieldinput
+{
+display: flex;
+padding-bottom: 5px;
+align-items: center;
+}
+
+.fieldname
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.035em;
+  font-size: 16px;
+  color: #3c6060;
+  font-weight: bold;
+  margin-right: 10px; 
+}
+.inputbox
+{
+  padding: 5px;
+  padding-right: 10px;
+border: 2px solid #ebeae5;
+border-radius: 5%;
+//line-height: 140px;
+
+}
+
+.successtext
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 0.035em;
+  font-size: 26px;
+  color: #3c6060;
+  font-weight: bold;
+margin: 50px;
+}
